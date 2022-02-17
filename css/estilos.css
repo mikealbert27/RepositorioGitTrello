@@ -1,0 +1,32 @@
+.titulo {
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.contenedor-galeria {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+.responsive-img{
+    width: 420px;
+    height: 300px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.materialbox-caption{
+    margin: auto;
+    font-size: 20px;
+    height: auto;
+    padding: 25px;
+    width: 100%;
+}
+
